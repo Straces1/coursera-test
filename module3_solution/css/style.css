@@ -1,0 +1,65 @@
+h1 {
+    margin-bottom: 50px;
+}
+#header-nav {
+    background-color: rgb(107, 105, 105);
+}
+.navbar-brand {
+    padding: 15px;
+    margin-left: 20px;
+    height: auto;
+}
+.navbar-brand h1 {
+    color: black;
+}
+#nav-list {
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1.5em;
+}
+#nav-list li {
+    border: 1px solid black;
+}
+#main-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: gray;
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#main-content h2 {
+    font-size: 25px;
+}
+#main-content p {
+    text-align: justify;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black; 
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+
+
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    #main-content {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+/* XS devices */
+@media (max-width: 767px) {
+    #main-content {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .navbar-header {
+        height: 80px;
+    }
+}
