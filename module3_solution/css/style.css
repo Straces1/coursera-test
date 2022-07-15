@@ -36,13 +36,7 @@ h1 {
 #main-content p {
     text-align: justify;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid black; 
-}
-.navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
-  }
+
 
 
 
